@@ -8,7 +8,7 @@ const Login = () => {
     
     const handleLogin = (e: React.FormEvent) => {
         e.preventDefault();
-        // Required Demo User Check
+        
         if (credentials.email === 'hire-me@anshumat.org' && credentials.password === 'HireMe@2025!') {
             navigate('/recruiter');
         } else {

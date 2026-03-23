@@ -138,7 +138,7 @@ const OnboardingFlow = () => {
                 )}
             </div>
             
-            {/* Live Profile Preview - THE WOW FACTOR */}
+            {/* Live Profile Preview */}
             <div className={styles.previewSide}>
                 <div style={{ position: 'sticky', top: '160px' }}>
                     <div style={{ marginBottom: '24px' }}>

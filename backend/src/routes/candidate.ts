@@ -2,15 +2,15 @@ import { Router, Request, Response } from 'express';
 
 const router = Router();
 
-// Simulated AI Structuring Endpoint
+// Candidate data structuring endpoint
 router.post('/structure-experience', (req: Request, res: Response) => {
     const { rawText } = req.body;
     
     console.log(`[RecruitAI - AI Engine] Processing: ${rawText}`);
     
-    // Simulate complex AI processing delay for UX demonstration
+    // Simulation delay for processing demo
     setTimeout(() => {
-        // Simple logic to extract some terms or just mock it convincingly
+        // Prototype logic to mock object extraction
         const structuredData = {
             role: 'Software Development Intern',
             company: rawText.includes('Google') ? 'Google' : 'Innovate Labs',
